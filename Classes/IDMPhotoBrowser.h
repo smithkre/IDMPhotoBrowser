@@ -58,6 +58,8 @@
 
 @property (nonatomic) BOOL dismissOnTouch;
 
+@property (nonatomic) UIBarButtonItem *actionButton;
+
 // Default value: true
 // Set to false to tell the photo viewer not to hide the interface when scrolling
 @property (nonatomic) BOOL autoHideInterface;
@@ -88,5 +90,8 @@
 
 // Get IDMPhoto at index
 - (id<IDMPhoto>)photoAtIndex:(NSUInteger)index;
+
+// Action Control
+- (void)actionButtonPressed:(id)sender;
 
 @end
