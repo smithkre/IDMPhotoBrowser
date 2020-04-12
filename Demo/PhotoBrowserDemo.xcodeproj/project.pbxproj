@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A1C667B24434D510057E092 /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1C667A24434D510057E092 /* CoreServices.framework */; };
 		4C6F979214AF734900F8389A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F979114AF734900F8389A /* UIKit.framework */; };
 		4C6F979414AF734900F8389A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F979314AF734900F8389A /* Foundation.framework */; };
 		4C6F979614AF734900F8389A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6F979514AF734900F8389A /* CoreGraphics.framework */; };
@@ -47,7 +48,6 @@
 		D1A193581758F37B00CE615F /* libz.1.2.5.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A193561758F37B00CE615F /* libz.1.2.5.dylib */; };
 		D1A193591758F37B00CE615F /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A193571758F37B00CE615F /* libz.dylib */; };
 		D1A1935B1758F42300CE615F /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A1935A1758F42300CE615F /* SystemConfiguration.framework */; };
-		D1A1935D1758F42A00CE615F /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1A1935C1758F42A00CE615F /* MobileCoreServices.framework */; };
 		D1A9ED521DEB684B00C238DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9ED511DEB684B00C238DA /* AppDelegate.swift */; };
 		D1A9ED541DEB685F00C238DA /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A9ED531DEB685F00C238DA /* MenuViewController.swift */; };
 		D1B43D551721876000D8B807 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1B43D541721875F00D8B807 /* QuartzCore.framework */; };
@@ -55,6 +55,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4A1C667A24434D510057E092 /* CoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreServices.framework; path = System/Library/Frameworks/CoreServices.framework; sourceTree = SDKROOT; };
 		4C6F978D14AF734900F8389A /* PhotoBrowserDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoBrowserDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C6F979114AF734900F8389A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C6F979314AF734900F8389A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -123,12 +124,12 @@
 			files = (
 				D1FA3A911805C340000FFE18 /* Security.framework in Frameworks */,
 				D1890F7217C66CA70065C101 /* ImageIO.framework in Frameworks */,
-				D1A1935D1758F42A00CE615F /* MobileCoreServices.framework in Frameworks */,
 				D1A1935B1758F42300CE615F /* SystemConfiguration.framework in Frameworks */,
 				D1A193581758F37B00CE615F /* libz.1.2.5.dylib in Frameworks */,
 				D1A193591758F37B00CE615F /* libz.dylib in Frameworks */,
 				D1B43D551721876000D8B807 /* QuartzCore.framework in Frameworks */,
 				4C6F97C914AF750400F8389A /* MessageUI.framework in Frameworks */,
+				4A1C667B24434D510057E092 /* CoreServices.framework in Frameworks */,
 				4C6F979214AF734900F8389A /* UIKit.framework in Frameworks */,
 				4C6F979414AF734900F8389A /* Foundation.framework in Frameworks */,
 				4C6F979614AF734900F8389A /* CoreGraphics.framework in Frameworks */,
@@ -164,6 +165,7 @@
 		4C6F979014AF734900F8389A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4A1C667A24434D510057E092 /* CoreServices.framework */,
 				D1A193561758F37B00CE615F /* libz.1.2.5.dylib */,
 				D1A193571758F37B00CE615F /* libz.dylib */,
 				4C6F979514AF734900F8389A /* CoreGraphics.framework */,
