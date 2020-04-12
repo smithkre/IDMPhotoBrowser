@@ -39,15 +39,15 @@
 @property (nonatomic) BOOL displayArrowButton;
 @property (nonatomic) BOOL displayActionButton;
 @property (nonatomic, strong) NSArray *actionButtonTitles;
-@property (nonatomic, weak) UIImage *leftArrowImage, *leftArrowSelectedImage;
-@property (nonatomic, weak) UIImage *rightArrowImage, *rightArrowSelectedImage;
-@property (nonatomic, weak) UIImage *actionButtonImage, *actionButtonSelectedImage;
+@property (nonatomic, strong) UIImage *leftArrowImage, *leftArrowSelectedImage;
+@property (nonatomic, strong) UIImage *rightArrowImage, *rightArrowSelectedImage;
+@property (nonatomic, strong) UIImage *actionButtonImage, *actionButtonSelectedImage;
 
 // View customization
 @property (nonatomic) BOOL displayDoneButton;
 @property (nonatomic) BOOL useWhiteBackgroundColor;
-@property (nonatomic, weak) UIImage *doneButtonImage;
-@property (nonatomic, weak) UIColor *trackTintColor, *progressTintColor;
+@property (nonatomic, strong) UIImage *doneButtonImage;
+@property (nonatomic, strong) UIColor *trackTintColor, *progressTintColor;
 
 @property (nonatomic, weak) UIImage *scaleImage;
 
